@@ -1,5 +1,6 @@
 package com.wecp.progressive.entity;
 
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -12,13 +13,6 @@ public class Loan {
     private Long id;
     private String loanType;
     private double amount;
-
-    public Loan(){}
-
-    public Loan(String loanType, double amount) {
-        this.loanType = loanType;
-        this.amount = amount;
-    }
 
     public Long getId() {
         return id;
@@ -43,7 +37,4 @@ public class Loan {
     public void setAmount(double amount) {
         this.amount = amount;
     }
-
-    
-
 }

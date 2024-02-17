@@ -24,4 +24,10 @@ export class Customer {
           console.log(`Role: ${this.role}`);
           console.log("------");
       }
-  }  
+  }
+  
+  
+  
+  
+  
+  

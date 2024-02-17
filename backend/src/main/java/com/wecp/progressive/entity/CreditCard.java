@@ -1,5 +1,6 @@
 package com.wecp.progressive.entity;
 
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -12,13 +13,6 @@ public class CreditCard {
     private Long id;
     private String cardNumber;
     private String cardHolderName;
-
-    public CreditCard(){}
-
-    public CreditCard(String cardNumber, String cardHolderName) {
-        this.cardNumber = cardNumber;
-        this.cardHolderName = cardHolderName;
-    }
 
     public Long getId() {
         return id;
@@ -43,6 +37,4 @@ public class CreditCard {
     public void setCardHolderName(String cardHolderName) {
         this.cardHolderName = cardHolderName;
     }
-
-    
 }
